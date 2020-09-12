@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background: #80002A;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo {
+   display: flex;
+   align-items: center;
+   padding-left: 20px;
+   padding-top: 20px;
+}
+
+.logo h1 {
+    font-family: 'Codystar', cursive;
+    color: rgba(255,255,255,.7);
+    font-size: 2rem;
+}
+
+#logo {
+    height: 80px;
+    width: auto;
+}
+
+.middle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#top-text {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255,255,255,.7);
+    font-size: 1.1rem;
+    position: absolute;
+    width: 180px;
+    top: 4rem;
+    right: 10rem;
+}
+
+#bottom-text {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255,255,255,.7);
+    font-size: 1.1rem;
+    position: absolute;
+    width: 180px;
+    bottom: 3rem;
+    left: 6rem;
+}
+
+#hero-img {
+    max-width: 100%;
+    width: 520px;
+    height: 520px;
+}
+
+#heading {
+    font-family: 'Arizonia', cursive;
+    font-size: 15.5rem;
+    color:rgba(255,255,255, .2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+
+/* End of hero page */
+
+/* Styling of second section */
+.two {
+    height: 100vh;
+    background: linear-gradient(90deg ,#FFB4CD 50% , #FCE4EC 50%);
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    left: 2rem;
+    width: 5px;
+    height: 250px;
+    background: #A50B37;
+    border-radius: 10px;
+
+}
+
+.slide-container {
+    width: 80vw;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-shadow: 3px 2px 52px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 2px 52px -14px rgba(0,0,0,0.75);
+    box-shadow: 3px 2px 52px -14px rgba(0,0,0,0.75);
+}
+
+.carousel-slide img {
+    width: 80vw;
+    height: 80vh;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+}
+
+#prevBtn {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    font-size: 2.5rem;
+    color: grey;
+    opacity: .9;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#nextBtn {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    font-size: 2.5rem;
+    color: grey;
+    opacity: .9;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#nextBtn:hover {
+    color: rgba(0, 0, 0, .3);
+}
+
+#prevBtn:hover {
+    color: rgba(0, 0, 0, .3);
+}
+
+.two h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 3rem;
+    color: #A50B37;
+    padding: 15px 0px 15px 30px;
+}
+
+/* Styling of section three */
+
+.three {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.line-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100vh;
+    background: #A50B37;
+    opacity: .7;
+    z-index: -1;
+}
+
+.dragon img {
+    width: 700px;
+    height: auto;
+    -webkit-box-shadow: 3px 2px 52px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 2px 52px -14px rgba(0,0,0,0.75);
+    box-shadow: 3px 2px 52px -14px rgba(0,0,0,0.75);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dragon {
+    padding-left: 5px;
+}
+
+.content {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    padding: 0 25px;
+    margin: 0 15px;
+    flex: 1;
+}
+
+#content-heading {
+    font-family: 'Playfair Display SC', serif;
+    color: #A50B37;
+    font-size: 3rem;
+    padding-bottom: 15px;
+}
+
+#content-heading span {
+    color: #FFB4CD;
+}
+
+/* Styling of section four */
+
+.four {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.circle {
+    position: absolute;
+    left: -250px;
+    top: -1px;
+    z-index: -1;
+    width: 600px;
+    height: 600px;
+    background-color: rgb(255,192,203);
+    border-radius: 50%;
+    opacity: .3;
+}
+
+.circle-two {
+    position: absolute;
+    right: -200px;
+    bottom: -50px;
+    z-index: -1;
+    width: 500px;
+    height: 500px;
+    background-color: #A50B37;
+    border-radius: 50%;
+    opacity: .4;
+}
+.four img {
+    width: 700px;
+    -webkit-box-shadow: 3px 2px 52px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 2px 52px -14px rgba(0,0,0,0.75);
+    box-shadow: 3px 2px 52px -14px rgba(0,0,0,0.75);
+}
+
+.four-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nutrients {
+    padding: 20px;
+}
+.nutrients h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 3rem;
+    color: #A50B37;
+}
+
+.nutrients span {
+    color: #FFB4CD;
+}
+
+.nutrients p {
+    font-size: 1.3rem;
+}
+
+.nutrients ul {
+    font-size: 1.2rem;
+    padding: 20px 30px;
+}
+
+.nutrients li {
+    list-style-type: circle;
+}
+
+/* styling of footer (Parallax) */
+
+.parallax {
+    background-image: url(parallax.jpg);
+    height: 90vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer {
+    height: 25vh;
+    width: 100vw;
+    background: #EFEFEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.footer-line {
+    position: absolute;
+    left: 5vw;
+    width: 15px;
+    height: 25vh;
+    background: #A50B37;
+}
+
+.footer-line-two {
+    position: absolute;
+    left: 7vw;
+    width: 15px;
+    height: 25vh;
+    background: pink;
+}
+
+.icons {
+    font-size: 2.3rem;
+}
+
+.icons i {
+    cursor: pointer;
+    margin-right: 20px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+#github {
+    color: #24292E;
+}
+
+#facebook {
+    color: #3B5998;
+}
+
+#twitter {
+    color: #00ACEE;
+}
+
+#github:hover {
+    color: #404040;
+}
+
+#facebook:hover {
+    color: #004080;
+}
+
+#twitter:hover {
+    color: #3B5998;
+}
+
+/* styling of screens less than 600px */
+
+@media only screen and (max-width: 600px) {
+    #logo {
+        height: 50px;
+    }
+
+    .logo h1 {
+        font-size: 1.5rem;
+    }
+
+    #top-text {
+        top: 8rem;
+        right: 1rem;
+        font-size: .9rem;
+    }
+
+    #bottom-text {
+        font-size: .9rem;
+        bottom: 7.5rem;
+        left: 2rem;
+    }
+
+    #hero-img {
+        width: 200px;
+        height: auto;
+    }
+
+    #heading {
+        font-size: 4.9rem;
+    }
+
+    /* Section two Styling */
+    .line {
+        left: 7px;
+        height: 150px;
+    }
+
+    .two h1 {
+        font-size: 1.4rem;
+        padding: 15px 0px 15px 5px;
+    }
+
+    .slide-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 380px;
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    .carousel-slide img {
+        width: 380px;
+        height: 380px;
+    }
+
+    .carousel-slide {
+        height: auto;
+    }
+
+    #prevBtn {
+        font-size: 1.5rem;
+    }
+
+    #nextBtn {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dragon img {
+        width: 100vw;
+    }
+
+    .line-1 {
+        width: 12px;
+        border-bottom-right-radius: 5px;
+    }
+
+    #content-heading {
+        font-size: 1.6rem;
+    }
+
+    .content {
+        padding-left: 30px;
+        font-size: 1.1rem;
+    }
+
+    .four img {
+        width: 370px;
+    }
+
+    .four-container {
+        flex-direction: column-reverse;
+    }
+
+    .circle {
+        width: 300px;
+        height: 300px;
+        left: -100px;
+    }
+
+    .circle-two {
+        width: 300px;
+        height: 300px;
+        right: -100px;
+    }
+
+    .nutrients {
+        padding: 20px;
+    }
+
+    .nutrients h1 {
+        font-size: 1.6rem;
+    }
+
+    .nutrients p {
+        font-size: 1.1rem;
+    }
+
+    .nutrients ul {
+        font-size: 1.1rem;
+    }
+
+    .icons {
+        font-size: 2rem;
+    }
+
+    .footer {
+        height: 20vh;
+    }
+
+    .footer-line {
+        height: 20vh;
+    }
+
+    .footer-line-two {
+        height: 20vh;
+        left: 12vw;
+    }
+}
+
+
+/* Styling of screens less than 385px */
+
+@media only screen and (max-width: 385px) {
+    
+    #hero-img {
+        width: 170px;
+    }
+    
+    #heading {
+        font-size: 4.3rem;
+    }
+
+    #top-text {
+        top: 7rem;
+    }
+
+    #bottom-text {
+        bottom: 7rem;
+    }
+
+    .two h1 {
+        font-size: 1.2rem;
+    }
+
+    .line {
+        left: 2px;
+    }
+
+    #content-heading {
+        font-size: 1.2rem;
+    }
+
+    .content {
+        font-size: 1rem;
+    }
+
+    .four img {
+        width: 350px;
+    }
+
+    .nutrients h1 {
+        font-size: 1.2rem;
+    }
+
+    .nutrients p {
+        font-size: 1rem;
+    }
+
+    .nutrients ul {
+        font-size: 1rem;
+    }
+
+    .circle {
+        width: 200px;
+        height: 200px;
+        left: -80px;
+    }
+
+    .circle-two {
+        width: 200px;
+        height: 200px;
+        right: -80px;
+    }
+}
+
+/* Styling of screens more than 1900px width */
+@media only screen and (min-width : 1900px) {
+    
+    #logo {
+        height: 120px;
+    }
+
+    .logo h1 {
+        font-size: 2.5rem;
+    }
+    
+    #heading {
+        font-size: 22rem;
+    }
+
+    #hero-img {
+        width: 700px;
+        height: 700px;
+    }
+
+    #top-text {
+        font-size: 1.7rem;
+        width: 300px;
+    }
+
+    #bottom-text {
+        font-size: 1.7rem;
+        width: 300px;
+    }
+
+    #prevBtn {
+        font-size: 3rem;
+        left: 10px;
+    }
+
+    #nextBtn {
+        font-size: 3rem;
+        right: 10px;
+    }
+
+    .dragon img {
+        width: 1000px;
+    }
+
+    .content {
+        font-size: 2rem;
+    }
+
+    .four img {
+        width: 1000px;
+    }
+
+    .nutrients {
+        padding: 30px;
+    }
+
+    .nutrients h1 {
+        font-size: 4.5rem;
+    }
+
+    .nutrients p {
+        font-size: 2rem;
+    }
+
+    .nutrients ul {
+        font-size: 2rem;
+    }
+
+    .icons {
+        font-size: 3.5rem;
+    }
+}
+
+
